@@ -1,0 +1,78 @@
+body{
+    font-family:verdana;
+    background-image: url('https://png.pngtree.com/background/20210709/original/pngtree-globe-moon-world-planet-background-picture-image_363056.jpg');
+    background-attachment: fixed;  
+    background-size: cover;
+    background-size: 120% 100%;
+}
+div.div1{
+    margin: 10px 10px 25px 20px;
+    float: left;
+    width: 22%;
+    height: 160px;
+    transition: all 1 ease-in-out;
+}
+div.div1 div:hover background-image{
+    margin: 0px 10px 25px 20px;
+}
+div.doc{
+    margin: 10px 10px 25px 20px;
+    clear:left;
+    width: 292px;
+    height: 160px;
+}
+div.bu{
+    border-radius: 11px;
+    border: 4px outset;
+    text-align: center;
+    font-size: 150%;
+}
+button {
+    border-radius: 20px;
+    border:outset;
+    font-size: 70%;
+}
+img {
+    opacity: 0.5;
+    width:30%;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: #14cc1e;
+    color: antiquewhite;
+}
+button:active{
+    background-color: red;
+}
+button::after{
+    background-color: red;
+}
+#do_thi{
+    margin: 10px 10px 25px 20px;
+    float: left;
+    width: 953px;
+    height: 547px;
+    background-image: url(https://dichvudanhvanban.com/Uploads/bieu-do-ket-hop-duong-cot.jpg); 
+    background-size: 50% 100%;
+}
+#nhiet_do {
+    background-image: linear-gradient(to bottom right,red,yellow);
+}
+#do_am{
+    background-image: linear-gradient(to bottom right,aqua ,blue);
+}
+#khi_gas{
+    background-image: linear-gradient(to top right,#224422,lime );
+}
+#thiet_bi_am_thanh{
+    background-image: linear-gradient(to bottom left,#14cc1e ,yellow);
+}
+#thiet_bi_chieu_sang{
+    background-image: linear-gradient(to bottom right,yellow ,#FFFAAE); 
+}
+#thiet_bi_dien_lanh{
+    background-image: linear-gradient(to bottom right,aqua,lightblue); 
+}
+#thiet_bi_khac{
+    background-image: linear-gradient(to bottom right,brown,yellow); 
+}

@@ -1,0 +1,90 @@
+body {
+    font-family:verdana;
+    background-image: url('https://png.pngtree.com/background/20210709/original/pngtree-globe-moon-world-planet-background-picture-image_363056.jpg');
+    background-attachment: fixed;  
+    background-size: cover;
+    background-size: 120% 100%;
+}
+h3 {
+    text-align:center;
+    color:white;
+}
+table {
+    width:100%;
+    border-spacing: 20px;
+}
+th, td {
+    border-radius: 12px;
+    border-style: outset;
+}
+
+tr {
+    height: 170px;
+}
+
+img {
+    opacity: 0.5;
+    width:30%;
+    border-radius: 20px;
+}
+
+button {
+    border-radius: 20px;
+    border:3px solid black;
+    font-size: 70%;
+}
+footer{
+        width: 100%;
+        height: 400px;
+}
+
+button:hover {
+    background-color: rgb(75, 224, 15);
+}
+#nhiet_do {
+    color:white;
+    width: 25%;
+    font-size: 150%;
+    background-image: linear-gradient(to bottom right,red,yellow);
+}
+#do_am{
+    color:white;
+    width: 25%;
+    font-size:150%;
+    background-image: linear-gradient(to bottom right,aqua ,blue);
+}
+#khi_ga{
+    color:white;
+    width: 25%;
+    font-size:150%;
+    background-image: linear-gradient(to top right,#224422,lime );
+}
+#coi{
+    color:white;
+    width: 25%;
+    font-size:150%;
+    background-image: linear-gradient(to bottom left,#14cc1e ,yellow);
+}
+#den_led{
+    color:white;
+    width: 25%;
+    font-size:150%;
+    background-image: linear-gradient(to bottom right,yellow ,#FFFAAE); 
+}
+#quat{
+    color:white;
+    width: 25%;
+    font-size:150%;
+    background-image: linear-gradient(to bottom right,aqua,lightblue); 
+}
+#thietbikhac{
+    color:white;
+    width: 25%;
+    font-size:150%;
+    background-image: linear-gradient(to bottom right,brown,yellow); 
+}
+#do_thi_table{
+    height:  550px;
+    background-image: url(https://dichvudanhvanban.com/Uploads/bieu-do-ket-hop-duong-cot.jpg); 
+    background-size: 100% 100%;
+}
